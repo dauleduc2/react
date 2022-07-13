@@ -1,0 +1,49 @@
+* {
+  color: black;
+}
+
+.selection {
+  color: black;
+  font-size: 15px;
+}
+.list-wrapper {
+  padding: 0;
+  display: flex;
+  gap: 20px;
+
+  list-style: none;
+}
+
+.select-head {
+  font-weight: 600;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.product-image {
+  width: 100%;
+}
+
+li {
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .list-wrapper {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style: none;
+  }
+}
